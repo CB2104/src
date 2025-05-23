@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useRef } from 'react'
 import { Asset, Ovo } from 'next/font/google'
 
+
 const Navbar = () => {
 
   const sideMenuRef = useRef();

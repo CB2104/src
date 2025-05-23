@@ -12,19 +12,6 @@ export default function Home() {
     <>
     <Navbar/>
     <Header/>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
     <About/>
     </>
   );

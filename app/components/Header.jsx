@@ -14,14 +14,15 @@ const Header = () => {
         <pre>radicado en Buenos aires</pre> 
       </h1>
       <p className='max-w-2x1 mx-auto font-Ovo'>
-        "Breve descripcion y experiencia"
+        "Estudiante de programacion Frontend, en miras a Full-stack; con conocimiento en JS y sus framework como React.js y Next.js
+        "
       </p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
-        >contact me <Image src={assets.right_arrow_white} alt='' className='rounded-full w-4'/></a>
+        >contacto <Image src={assets.right_arrow_white} alt='' className='rounded-full w-4'/></a>
         <a href="/sample-resume1.pdf" download 
         className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
-            my resume <Image src={assets.download_icon} alt='' className='w-4'/></a>
+            mi c.v. <Image src={assets.download_icon} alt='' className='w-4'/></a>
       </div>
     </div>
   )
